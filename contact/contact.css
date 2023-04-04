@@ -58,7 +58,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: var(--secondary-color);
+    color: #fff;
 
 }
 
@@ -82,7 +82,7 @@ button span {
 
 }
 
-.text-container{
+.contact-text-container{
     max-width: 600px;
     margin-top: 5%;
     margin-left: 5%;

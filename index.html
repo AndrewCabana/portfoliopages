@@ -4,15 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Andrew Cabana</title>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident fuga doloribus ut aut et esse omnis, ipsum nemo. Voluptate cupiditate eius eligendi. Voluptatibus deserunt impedit sit hic dolorem odio nihil!</p>
-    <a href="./index.html">Home</a>
-    <a href="./contact.html">Contact</a>
-    <a href="./project.html">Projects</a>
-
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <script src="./index.js"></script>
+<div class="hero">
+    <nav>
+        
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="contact/index.html">Contacts</a></li>
+            <li><a href="projects/index.html">Projects</a></li>
+
+        </ul>
+        <img src="images/moon.png" id="icon">
+    <!-- <button type="button"><span></span></button> -->
+    </nav>
+
+    <div class="text-container">
+        <h1>Andrew Cabana<br></h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+</div>
+<script>
+    var icon = document.getElementById("icon");
+    
+        icon.onclick = function(){
+            document.body.classList.toggle("dark-theme"); 
+            if( document.body.classList.contains("dark-theme")){
+                icon.src ="images/sun.png";
+            }else{
+                icon.src ="images/moon.png";
+            }
+        }
+        </script>    
+    
 </body>
 </html>

@@ -27,7 +27,7 @@
     background: var(--primary-color);
     min-height: 100vh;
     width: 100%;
-    color: var(--secondary-color);
+    color: #fff;
     position: relative;
 }
 
@@ -58,7 +58,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: var(--secondary-color);
+    color: #fff;
 
 }
 
